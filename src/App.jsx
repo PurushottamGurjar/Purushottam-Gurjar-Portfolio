@@ -1,5 +1,5 @@
 // App.jsx
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { myData } from './assets/myasset';
 import './App.css';
 import { Link } from 'react-router-dom';
@@ -11,6 +11,10 @@ import Viewer from "./components/Viewer";
 
 function App() {
   const navigate=useNavigate();
+  const [nav,setNav]=useState("about");
+  useEffect(()=>{
+    navigate('/',{replace:true});
+  },[])
 
   return (
     <div className="app-container">
@@ -32,10 +36,11 @@ function App() {
           <div className="nav-profile">
             <nav className="nav desktop-nav">
         
-              <Link to="/about" className="nav-content selected" >About</Link>
-              <Link to="/e-sarthee" className="nav-content" >E-Sarthee</Link>
-              <a href="https://p-tunes-purush-gurjar.vercel.app/"  className="nav-content" >P-Tunes</a>
-              <Link to='/contact' className="nav-content" >Contact</Link>
+              <Link to="/about" className={`nav-content ${nav==="about"? "selected":""}`} onClick={()=>setNav("about")}
+              >About</Link>
+              <Link to="/e-sarthee" className={`nav-content ${nav==="e-sarthee"? "selected":"none"}`} onClick={()=>setNav("e-sarthee")} >E-Sarthee</Link>
+              <a href="https://p-tunes-purush-gurjar.vercel.app/"  className={`nav-content ${nav==="p-tunes"? "selected":"none"}`} onClick={()=>setNav("p-tunes")} >P-Tunes</a>
+              <Link to='/contact' className={`nav-content ${nav==="contact"? "selected":"none"}`} onClick={()=>setNav("contact")} >Contact</Link>
               
             </nav>
             <img src={myData.profilePic} alt="Profile" className="profile" />
@@ -43,10 +48,10 @@ function App() {
         </header>
         <nav className="nav-second mobile-nav">
 
-              <Link to="/about" className="second-nav-content selected" >About</Link>
-              <Link to="/e-sarthee" className="second-nav-content " >E-Sarthee</Link>
-              <a href="https://p-tunes-purush-gurjar.vercel.app/"  className="second-nav-content" >P-Tunes</a>
-              <Link to='/contact' className="second-nav-content" >Contact</Link>
+              <Link to="/about" className={`second-nav-content ${nav==="about"?"selected":""}`} onClick={()=>setNav("about")}>About</Link>
+              <Link to="/e-sarthee" className={`second-nav-content ${nav==="e-sarthee"?"selected":""}`} onClick={()=>setNav("e-sarthee")} >E-Sarthee</Link>
+              <a href="https://p-tunes-purush-gurjar.vercel.app/"  className={`second-nav-content ${nav==="p-tunes"?"selected":""}`} onClick={()=>setNav("p-tunes")} >P-Tunes</a>
+              <Link to='/contact' className={`second-nav-content ${nav==="contact"?"selected":""}`} onClick={()=>setNav("contact")} >Contact</Link>
           
         </nav>
 
@@ -54,6 +59,7 @@ function App() {
 
       {/* <Portfolio/> */}
       <Routes>
+        <Route path="*" element={<Portfolio/>} />
         <Route path="/" element={<Portfolio/>} />
         <Route path="/home" element={<Portfolio/>} />
         <Route path='/about'  element={<Portfolio/>}/>
