@@ -3,7 +3,8 @@
 Welcome to the source code of my personal portfolio website!  
 This project showcases my skills, projects, and contact information — built with passion and dedication.
 
-## Live Demo
+
+🚀 **Live Demo**  
 Check out the live portfolio here:  
 🌐 [https://purushottam-gurjar.vercel.app](https://purushottam-gurjar.vercel.app)
 
@@ -12,6 +13,14 @@ This portfolio website is fully responsive and optimized for both mobile and des
 It demonstrates my expertise in React, Context API, React Router, EmailJS integration, and custom CSS styling.
 
 ---
+📸 **Preview** 
+![portfolio-final](https://github.com/user-attachments/assets/1e76b0a4-63d2-470a-8442-aa93a789ffe2)
+
+
+
+
+----
+
 
 ## Features
 - Responsive design with mobile-first approach  
@@ -28,5 +37,11 @@ It demonstrates my expertise in React, Context API, React Router, EmailJS integr
 - React Router DOM  
 - EmailJS  
 - HTML5 & CSS3 (Custom styling)  
+
+---
+🙋‍♂️ **Author**  
+Made with ❤️ by **Purushottam Gurjar**  
+🔗 GitHub: [https://github.com/PurushottamGurjar](https://github.com/PurushottamGurjar)  
+🔗 LinkedIn: [https://linkedin.com/in/purushottam-gurjar](https://linkedin.com/in/purushottam-gurjar)
 
 ---
