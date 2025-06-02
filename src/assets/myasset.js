@@ -2,6 +2,7 @@ import backgroundAnimation from "./backgroundAnimation.mp4"
 import starsBackground from "./starsBackground.mp4"
 import profilePic from "./profilePic.jpg"
 import PtuneLogo from "./PtuneLogo.png"
+import NITW from "./NITW.jpg"
 
 
 
@@ -150,5 +151,6 @@ export const myData={
     backgroundAnimation,
     starsBackground,
     profilePic,
-    PtuneLogo
+    PtuneLogo,
+    NITW
 }

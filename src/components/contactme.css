@@ -66,14 +66,14 @@
 
 .input-email{
     height:45px;
-    background-color:rgb(37, 38, 37);
+    background-color:rgb(9, 10, 9);
     width:35vw;
     padding: 3px;
     border-radius: 10px;
 }
 .input-name{
     height:45px;
-    background-color:rgb(37, 38, 37);
+    background-color:rgb(9, 10, 9);
     width:35vw;
     padding: 3px;
     border-radius: 10px;
@@ -82,7 +82,7 @@
     width:45vw;
     height:170px;
     padding:5px;
-    background-color:rgb(37, 38, 37);
+    background-color:rgb(9, 10, 9);
     border-radius: 10px;;
 }
 
