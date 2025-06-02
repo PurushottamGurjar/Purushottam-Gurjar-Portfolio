@@ -1,0 +1,172 @@
+.contactme-body{
+    border:5px solid rgb(58, 56, 56);
+     width:92%;
+     margin:4%;
+     margin-top:clamp(6rem,1vw,5rem);
+     height:auto;
+     box-sizing: border-box;
+     border-radius: 10px;;
+}
+.img-purush{
+    display:flex;
+    height:auto;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    
+}
+.purush-pic{
+    height:100px;
+    width:100px;
+    border-radius: 100px;
+    align-items: center;
+
+}
+
+.main{
+    display: flex;
+    gap:5vw;
+    width:100%;
+    height:auto;
+    padding:3vw;
+    box-sizing: border-box;
+    justify-content: space-around;
+    border-radius: 15px;
+}
+.name-email{
+    display:flex;
+    flex-direction: column;
+    gap:30px;
+}
+
+.div-message{
+    display: flex;
+    gap:7px;
+    flex-direction: column;
+}
+.div-email{
+    display: flex;
+    flex-direction: column;
+    gap:7px;
+}
+.div-name{
+    display: flex;
+    flex-direction: column;
+    gap:7px;
+}
+
+.name-text{
+    font-size:clamp(1rem,3vw,1.6rem);
+    font-weight: 500;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.input-email{
+    height:45px;
+    background-color:rgb(37, 38, 37);
+    width:35vw;
+    padding: 3px;
+    border-radius: 10px;
+}
+.input-name{
+    height:45px;
+    background-color:rgb(37, 38, 37);
+    width:35vw;
+    padding: 3px;
+    border-radius: 10px;
+}
+.input-message{
+    width:45vw;
+    height:170px;
+    padding:5px;
+    background-color:rgb(37, 38, 37);
+    border-radius: 10px;;
+}
+
+.input-text{
+    font-size:clamp(1rem,2vw,1.4rem);
+    color:white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.submit{
+    font-size:clamp(1rem,2vw,2rem);
+    padding: 10px;
+    border-radius: 10px;
+    color:white;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color:rgb(9, 107, 244);
+
+}
+.div-button{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center
+}
+.thankyou-text{
+    font-size:clamp(1rem,4vw,1.8rem);
+    font-weight:bold;
+    color:white;
+    margin-top: 50px;
+    text-align: center;
+    padding:20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.purush{
+    font-size:clamp(1rem,3vw,2rem);
+    align-items: center;
+    margin: 0;
+    font-weight:bolder;
+    color:white;
+    margin-top:20px;;
+    margin-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media(max-width:1024px){
+    .main{
+        display:flex;
+        flex-direction:column;
+    }
+    .input-message{
+        width:80vw;
+        height:150px;
+    }
+    .input-name{
+        width:80vw;
+        height:35px;
+    }
+    .input-email{
+        width:80vw;
+        height:35px;
+    }
+    .thankyou-text{
+        font-size:clamp(1rem,3vw,1.8rem);
+        margin-top: 10px;
+    }
+    .purush-pic{
+        height:50px;
+        width:50px;
+    }
+}
+
+@media(min-width:1024px){
+    .img-purush{
+        padding-top: 30px;
+    }
+    .purush{
+        font-size: clamp(2rem,4vw,3rem);;
+    }
+}
+
+@media(max-width:768px){
+    .contactme-body{
+        margin-top: 70px;
+    }
+}

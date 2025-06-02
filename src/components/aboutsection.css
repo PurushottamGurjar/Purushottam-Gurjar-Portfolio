@@ -1,0 +1,80 @@
+.about-main{
+    width:100%;
+    height:auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: clamp(2rem, 9vw, 6rem);
+    border:5px solid rgb(74, 73, 73);
+    border-radius: 10px;
+    box-sizing: border-box;
+    width:92vw;
+    margin-left:4vw;
+    align-items: center;
+    align-self: center;
+    overflow-y: hidden;
+
+}
+.about-main
+.photo-developer{
+    width:92%;
+    box-sizing: border-box;
+    padding: 2vw;
+    display: flex;
+    gap:10vw;
+
+}
+.img-photo{
+    width:200px;
+    height:200px;
+    border-radius: 150px;
+    
+}
+.photo{
+    width:200px;
+    align-self: center;
+}
+.developer{
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+
+}
+.p-about-name{
+    margin-top:0px;
+    margin-bottom: 0px;
+    font-size:clamp(2rem,4vw,4.5rem);
+    color:rgb(244, 188, 3);
+    font-weight:400;
+    text-align: center;
+}
+
+.type-animation{
+    color:white;
+    font-size:clamp(1.8rem,4vw,4.5rem);
+    text-align: center;
+}
+.about-text{
+    color:rgb(30, 253, 1);
+    margin-top: 0;
+    text-align: justify;
+    box-sizing: border-box;
+    margin-left:clamp(1.5rem,4vw,3rem);
+    margin-right:clamp(1.5rem,4vw,3rem);
+    font-size:clamp(1rem, 2vw,2.1rem);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media(max-width:1024px){
+    .photo-developer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-main{
+        margin-top: 4rem;
+    }
+    .about-text{
+        margin-top: 20px;
+    }
+}
+
