@@ -24,19 +24,19 @@ const AboutSection = () => {
             <TypeAnimation
               sequence={[
                 "I am React Developer  ",
-                3000,
+                2000,
                 "Building Dynamic Apps  ",
-                3000,
+                2000,
                 "I am C++ Programmer  ",
-                3000,
+                2000,
                 "I am Exploring Backend",
-                3000,
+                2000,
                 "Learning DataScience",
-                3000,
+                2000,
                 "I am C++ Programmer  ",
-                3000,
+                2000,
                 "Building Dynamic Apps  ",
-                3000,
+                2000,
                 "", // Wait before restarting
               ]}
               wrapper="span"
