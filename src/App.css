@@ -40,7 +40,9 @@ body {
 /* HEADER */
 .header {
   width: 100%;
-  padding: 1vw 1vw;
+  padding: 1vw ;
+  padding-top: 3px;
+  padding-bottom: 3px;
   display: flex;
   justify-content: space-between;
   align-items: center;
