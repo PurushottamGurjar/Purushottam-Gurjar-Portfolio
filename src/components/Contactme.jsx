@@ -1,13 +1,17 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import { myData } from "../assets/myasset";
 import "./contactme.css";
 import emailjs from "@emailjs/browser"
 
 const Contactme = () => {
   const form = useRef();
+  const [buttonText,setButtonText]=useState("Send Message");
 
   const sendEmail = (e) => {
     e.preventDefault();
+    setButtonText("Sending....")
+
+   
 
     // Auto-fill time input
     const currentTime = new Date().toLocaleString();
@@ -21,10 +25,12 @@ const Contactme = () => {
         () => {
           alert('Message sent successfully!');
           form.current.reset();
+          setButtonText("Send Mesage")
         },
         (error) => {
           console.error('FAILED...', error.text);
           alert('Failed to send message.');
+          setButtonText("Send Message")
         }
       );
   };
@@ -85,7 +91,7 @@ const Contactme = () => {
           </div>
           <div className="div-button">
             <button type="submit" className="submit">
-            Send Message
+            {buttonText}
           </button>
           </div>
           <div className="thankyou-text">
