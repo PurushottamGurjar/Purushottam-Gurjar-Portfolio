@@ -53,7 +53,7 @@ const AboutSection = () => {
           </div>
         </div>
       </div>
-      <p className="about-text"> Hi Everyone , I am Purushottam Gurjar . Welcome to my Portfolio Website . I am C++ Programmer learned by solving more than 1000 problems collectively on LeetCode , GFG and Other Coding Platforms .I had Covered all the Advanced topics of the DSA and OOPs. Also I am a Web Developer currently Exploring Backend. I am also dedicated to learn ML and AI to be a better fit in this new era of AI.
+      <p className="about-text">Hi Everyone , I am Purushottam Gurjar. Welcome to my Portfolio Website. I am C++ Programmer learned by solving more than 1000 problems collectively on LeetCode , GFG and Other Coding Platforms .I had Covered all the Advanced topics of the DSA and OOPs. Also I am a Web Developer currently Exploring Backend. I am also dedicated to learn ML and AI to be a better fit in this new era of AI.
             </p>
 
     </div>
