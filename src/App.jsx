@@ -8,6 +8,7 @@ import Portfolio from './components/Portfolio';
 import { Routes,Route, BrowserRouter } from 'react-router-dom';
 import Contactme from './components/Contactme';
 import Viewer from "./components/Viewer";
+import PopupAI from "./components/PopupAI"
 
 function App() {
   const navigate=useNavigate();
@@ -54,6 +55,7 @@ function App() {
               <Link to='/contact' className={`second-nav-content ${nav==="contact"?"selected":""}`} onClick={()=>setNav("contact")} >Contact</Link>
           
         </nav>
+        <PopupAI/>
 
       </div>
 

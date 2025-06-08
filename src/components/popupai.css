@@ -1,0 +1,188 @@
+.chatbox1 {
+  font-size: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 87vh;
+  width: clamp(20rem, 80vw, 60rem);
+  background: linear-gradient(352deg, rgb(205, 71, 165) 0%, rgb(151, 39, 207) 76%);
+  border-radius: 20px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  padding: 3px;
+  position: fixed;
+  right: 5px;
+  bottom: 30px;
+  box-sizing: border-box;
+}
+
+.copilotKitMessagesContainer {
+  height: 74vh;
+  width: clamp(19rem, 78vw, 58rem);
+  margin: auto;
+  padding-top: 10px;
+  background: linear-gradient(0deg, rgba(7, 79, 247, 1) 0%, rgba(28, 130, 255, 1) 24%, rgba(52, 182, 244, 1) 43%, rgba(75, 234, 242, 1) 73%, rgba(57, 238, 247, 1) 88%);
+  margin-top: 10px;
+  text-align: left;
+  overflow: scroll;
+  box-sizing: border-box;
+  border-radius: 7px;
+}
+
+.copilotKitMessagesContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.copilotKitUserMessage {
+  color: white;
+  background: linear-gradient(90deg, rgba(196, 129, 41, 1) 0%, rgba(135, 94, 22, 1) 76%);
+  width: 80%;
+  margin-left: 19%;
+  margin-right: 5px;
+  border-radius: 10px;
+  padding: 3px;
+  font-weight: 500;
+  box-sizing: border-box;
+  padding-left: 10px;
+  border-top-right-radius: 0px;
+}
+
+.copilotKitInputContainer {
+  width: clamp(18rem, 77vw, 57rem);
+  background-color: rgb(43, 44, 43);
+  display: flex;
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 5px;
+  position: relative;
+  flex-direction: column;
+  padding: 8px;
+}
+
+.copilotKitInputContainer textarea {
+  width: 80vw;
+  color: black;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow: auto;
+}
+
+.copilotKitInputContainer > textarea {
+  line-height: 1px;
+}
+
+.copilotKitInput {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+  width: 100%;
+}
+
+.copilotKitInput textarea {
+  flex-grow: 1;
+  padding: 8px;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  overflow: auto;
+}
+
+.copilotKitInputControls {
+  display: flex;
+  align-items: flex-end;
+}
+
+.copilotKitInputControlButton {
+  background-color: #007bff;
+  border: none;
+  padding: 8px;
+  width: clamp(3rem, 2vw, 5rem);
+  height: 50px;
+  border-radius: 6px;
+  cursor: pointer;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.copilotKitMarkdownElement {
+  background: linear-gradient(90deg, rgb(146, 36, 113) 0%, rgb(114, 24, 159) 50%);
+  width: 90%;
+  color: white;
+  border-radius: 10px;
+  padding: 5px;
+  border-top-left-radius: 0px;
+  margin-left: 5px;
+}
+
+.ai-image {
+  width: 60px;
+  position: fixed;
+  z-index: 500;
+  bottom: 50px;
+  right: 10px;
+}
+
+.cross {
+  position: fixed;
+  z-index: 50;
+  bottom: 50vh;
+  right: 0px;
+  font-size: 25px;
+  border: 1px solid rgb(70, 61, 61);
+  border-radius: 5px;
+  background-color: rgb(255, 0, 17);
+  padding-left: 2px;
+  padding-top: 0px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+@media (min-width: 800px) {
+  .copilotKitMarkdownElement {
+    font-size: 18px;
+  }
+
+  .copilotKitUserMessage {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .copilotKitInput textarea {
+    font-size: 18px;
+    padding-top:4px;
+  }
+
+  .copilotKitInput textarea::placeholder {
+    initial-value: "Ask me anything about Purushottam Gurjar.";
+  }
+}
+
+@media (min-width: 1200px) {
+  .copilotKitMarkdownElement {
+    font-size: 20px;
+  }
+
+  .copilotKitUserMessage {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .copilotKitInput textarea {
+    font-size: 20px;
+    padding-top:4px;
+  }
+}
+
+.copilotKitMessageControls {
+  display: none;
+}
+
+.copilotKitInput textarea {
+  width: 80%; 
+  padding-top:2px !important;
+  height: 40px !important; /* or whatever height you need */
+}
+.copilotKitMessagesFooter{
+  display:none;
+}
