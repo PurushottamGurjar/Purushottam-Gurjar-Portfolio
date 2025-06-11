@@ -28,9 +28,6 @@
   display: flex;
   width: 20%;
   align-items: center;
-  border-radius: 10px;
-  background-color: #121416;
-  border: 1px solid black;
   box-sizing: border-box;
 }
 .div-language-icon-container {
@@ -57,10 +54,7 @@
     padding-bottom: 0px;
     padding-top: 12px;
   }
-  .each-item{
-    background-color: black;
-    padding-bottom:0px;
-  }
+  
   .language-icon-img{
     height:35px;
     width:35px;
@@ -73,6 +67,14 @@
   }
 
  
+}
+
+@media(min-width:768px){
+  .each-item{
+    border-radius: 10px;
+    background-color: #121416;
+    border: 1px solid black;
+  }
 }
 
 
