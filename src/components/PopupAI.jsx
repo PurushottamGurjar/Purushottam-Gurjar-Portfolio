@@ -6,7 +6,7 @@ import AIImage from "../assets/AI.png";
 
 const PopupAI = () => {
   const [isOpen, setIsopen] = useState(false);
-  
+  console.log('designMode="on"')
 
 
   return (
