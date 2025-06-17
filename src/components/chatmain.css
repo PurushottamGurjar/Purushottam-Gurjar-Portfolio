@@ -1,6 +1,7 @@
 .chat-main{
   background-color: #08123E;
   display:flex;
+  margin-top: 49px;
 }
 .chat-body{
      display: flex;
@@ -10,7 +11,7 @@
 }
 
 .chat-sidebar-laptop{
-    height:100vh;
+    height:calc(100vh - 49px);
     z-index:500;
     display: flex;
     flex-direction: column;
