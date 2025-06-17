@@ -15,9 +15,10 @@ import mic_icon from "./mic.svg";
 import aiDivieImg from "./aiDivieImg.png"
 import gibliImage from "./gibliImage.jpeg"
 import AiDivieLogo from "./AiDivieLogo.png"
-
-
+import codeBoy from "./codeBoy.png"
 //this is assets for my AI-Divie
+
+
 import androidstudio_icon from "./androidstudio_icon.svg"
 import bootstrap_icon from "./bootstrap_icon.svg"
 import cpp_icon from "./cpp_icon.svg"
@@ -52,7 +53,8 @@ export const myIcons={
     mic_icon,
     aiDivieImg,
     gibliImage,
-    AiDivieLogo
+    AiDivieLogo,
+    codeBoy
 }
 
 //end of my assets for AI-Divie

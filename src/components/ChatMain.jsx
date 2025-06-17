@@ -280,7 +280,7 @@ const ChatMain = () => {
               className="chat-profile-img"
               src={myIcons.gibliImage}
               alt="image"
-              onClick={()=>window.open("https://purushottam-gurjar.vercel.app" ,"_blank")}
+              onClick={()=>window.open("https://purushottam-gurjar.vercel.app" ,"_self")}
             />
           </div>
         </div>
@@ -288,17 +288,24 @@ const ChatMain = () => {
           
 
           {!isResponse && (
-            <div className="welcome-container">
+           
+             <div className="welcome-container">
               <div className="chat-home-content-heading">
                 Welcome to AI-Divie
               </div>
               <div className="chat-home-content-subheading">
-                <span className="highlight">AI-Divie</span> - Your Personal AI Assistant
+                <div><img src={myIcons.codeBoy} alt="code" className="codeBoy"/></div>
+                <div><span className="highlight">AI-Divie</span> - Your Personal AI Assistant : Designed with Love ❤️ and a Passion for Coding</div>
                 <br />
+                 
                 
               </div>
-            </div>
+    
+            
+          </div>
           )}
+
+         
 
 
           {isResponse && (

@@ -328,6 +328,15 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 500;
+    display: flex;
+    text-align: start;
+    gap:30px;
+}
+
+.codeBoy{
+    /* display:none; */
+    height:150px;
+    width:160px;
 }
 
 
@@ -468,6 +477,8 @@
 
 
 
+
+
 @media(max-width:766px){
     
     .chat-body{
@@ -548,6 +559,19 @@
     }
     .chat-header{
         height:40px;
+    }
+    .chat-home-content-subheading {
+        /* flex-direction: column; */
+        gap:10px;
+        line-height: 1.5;
+        text-align: justify;
+    }
+    .codeBoy{
+        display:none;
+        
+    }
+    .welcome-container{
+        margin-top:10px;
     }
 }
 
