@@ -4,8 +4,20 @@ import profilePic from "./profilePic.jpg"
 import PtuneLogo from "./PtuneLogo.png"
 import NITW from "./NITW.jpg"
 
+import camera_icon from "./camera.svg"
+import expand_icon from "./expand.svg"
+import message_icon from "./message.svg"
+import plus_icon from "./plus.svg"
+import question_icon from "./question.svg"
+import setting_icon from "./setting.svg"
+import send_icon from "./send.svg"
+import mic_icon from "./mic.svg";
+import aiDivieImg from "./aiDivieImg.png"
+import gibliImage from "./gibliImage.jpeg"
+import AiDivieLogo from "./AiDivieLogo.png"
 
 
+//this is assets for my AI-Divie
 import androidstudio_icon from "./androidstudio_icon.svg"
 import bootstrap_icon from "./bootstrap_icon.svg"
 import cpp_icon from "./cpp_icon.svg"
@@ -28,6 +40,22 @@ import vite_icon from "./vite_icon.svg"
 import postman_icon from "./postman_icon.webp"
 import leetcode_icon from "./leetcode_icon.png"
 import gfg_icon from "./gfg_icon.png"
+
+export const myIcons={
+    camera_icon,
+    expand_icon,
+    message_icon,
+    plus_icon,
+    question_icon,
+    setting_icon,
+    send_icon,
+    mic_icon,
+    aiDivieImg,
+    gibliImage,
+    AiDivieLogo
+}
+
+//end of my assets for AI-Divie
 
 export const webIconData=[
     {

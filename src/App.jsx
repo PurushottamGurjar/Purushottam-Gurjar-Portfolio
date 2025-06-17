@@ -9,6 +9,8 @@ import { Routes,Route, BrowserRouter } from 'react-router-dom';
 import Contactme from './components/Contactme';
 import Viewer from "./components/Viewer";
 import PopupAI from "./components/PopupAI"
+import chatMain from "./components/ChatMain"
+import ChatMain from './components/ChatMain';
 
 function App() {
   const navigate=useNavigate();
@@ -39,9 +41,10 @@ function App() {
         
               <Link to="/about" className={`nav-content ${nav==="about"? "selected":""}`} onClick={()=>setNav("about")}
               >About</Link>
+               <Link to='/AI-Divie' className={`nav-content ${nav==="AI-Divie"? "selected":"none"}`} onClick={()=>setNav("AI-Divie")} >AI-Divie</Link>
               <Link to="/e-sarthee" className={`nav-content ${nav==="e-sarthee"? "selected":"none"}`} onClick={()=>setNav("e-sarthee")} >E-Sarthee</Link>
               <a href="https://p-tunes-purush-gurjar.vercel.app/"  className={`nav-content ${nav==="p-tunes"? "selected":"none"}`} onClick={()=>setNav("p-tunes")} >P-Tunes</a>
-              <Link to='/contact' className={`nav-content ${nav==="contact"? "selected":"none"}`} onClick={()=>setNav("contact")} >Contact</Link>
+              {/* <Link to='/contact' className={`nav-content ${nav==="contact"? "selected":"none"}`} onClick={()=>setNav("contact")} >Contact</Link> */}
               
             </nav>
             <img src={myData.profilePic} alt="Profile" className="profile" />
@@ -50,9 +53,10 @@ function App() {
         <nav className="nav-second mobile-nav">
 
               <Link to="/about" className={`second-nav-content ${nav==="about"?"selected":""}`} onClick={()=>setNav("about")}>About</Link>
+              <Link to='/AI-Divie' className={`second-nav-content ${nav==="AI-Divie"?"selected":""}`} onClick={()=>setNav("AI-Divie")} >AI-Divie</Link>
               <Link to="/e-sarthee" className={`second-nav-content ${nav==="e-sarthee"?"selected":""}`} onClick={()=>setNav("e-sarthee")} >E-Sarthee</Link>
               <a href="https://p-tunes-purush-gurjar.vercel.app/"  className={`second-nav-content ${nav==="p-tunes"?"selected":""}`} onClick={()=>setNav("p-tunes")} >P-Tunes</a>
-              <Link to='/contact' className={`second-nav-content ${nav==="contact"?"selected":""}`} onClick={()=>setNav("contact")} >Contact</Link>
+              {/* <Link to='/contact' className={`second-nav-content ${nav==="contact"?"selected":""}`} onClick={()=>setNav("contact")} >Contact</Link> */}
           
         </nav>
         <PopupAI/>
@@ -67,6 +71,7 @@ function App() {
         <Route path='/about'  element={<Portfolio/>}/>
         <Route path='/contact'  element={<Contactme/>}/>
         <Route path="/e-sarthee" element={<Viewer/>} />
+        <Route path="/AI-Divie" element={<ChatMain/>} />
       </Routes>
     </div>
   );
