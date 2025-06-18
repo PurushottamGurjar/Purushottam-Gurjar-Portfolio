@@ -23,7 +23,7 @@ function App() {
     if(e.key==="F12"  || 
       (e.ctrlKey && e.shiftKey && (e.key==='I' || e.key==='C' || e.key==="J")) || 
       (e.ctrlKey && e.key==="U")){
-        alert("Inspecting is disabled by the Purushottam Gurjar");
+        alert("Inspecting is disabled by the Purushottam Gurjar for Non-Techies and for Techies they know : 'if It's a secret it must be in Backend. Techies know what to do....'");
         return false;
       }
    
