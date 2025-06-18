@@ -19,6 +19,17 @@ function App() {
     navigate('/',{replace:true});
   },[])
 
+  document.onkeydown= function(e){
+    if(e.key==="F12"  || 
+      (e.ctrlKey && e.shiftKey && (e.key==='I' || e.key==='C' || e.key==="J")) || 
+      (e.ctrlKey && e.key==="U")){
+        alert("Inspecting is disabled by the Purushottam Gurjar");
+        return false;
+      }
+   
+  }
+  
+
   return (
     <div className="app-container">
       {/* Video Background */}
