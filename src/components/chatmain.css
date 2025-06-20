@@ -548,15 +548,14 @@
     }
     .ai-name{
         margin-left: 0px !important;
+        font-size:25px;
+        margin-top: 1px;
     }
     .chat-profile-img{
         height:30px;
         width:30px;
     }
-    .ai-name{
-        font-size:25px;
-        margin-top: 1px;
-    }
+   
     .chat-header{
         height:40px;
     }

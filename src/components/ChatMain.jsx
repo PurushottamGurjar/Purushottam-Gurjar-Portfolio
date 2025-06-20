@@ -35,7 +35,10 @@ const ChatMain = () => {
     setPrompt("");
     setIsLoading(true);
 
-    let response = await runChat(prompt);
+    const safePrompt = String(prompt || "").replace(/ /g, "+");
+    let res = await fetch(`https://ai-divie-backend.onrender.com/${safePrompt}`);
+    let response = await res.text(); 
+    console.log("Received response:", response);
 
     //Extract code blocks and replace with placeholders
     const codeBlocks = [];
@@ -131,7 +134,7 @@ const ChatMain = () => {
           <img
             className="chat-sidebar-eachicon chat-setting"
             src={myIcons.setting_icon}
-            alt=""
+            alt="Setting"
           />
         </div>
           </div> :
@@ -157,7 +160,7 @@ const ChatMain = () => {
                 >
                   <img
                     src={myIcons.plus_icon}
-                    alt=""
+                    alt="New Chat"
                     className="mobile-newchat-icon"
                   />
                   <p className="mobile-newchat">New Chat</p>
@@ -165,7 +168,7 @@ const ChatMain = () => {
                 <div className="mobile-setting">
                   <img
                     src={myIcons.setting_icon}
-                    alt=""
+                    alt="Setting"
                     className="mobile-setting-img"
                   />
                   <p className="mobile-setting-text">Settings</p>
@@ -183,7 +186,7 @@ const ChatMain = () => {
                         >
                           <img
                             src={myIcons.message_icon}
-                            alt=""
+                            alt="Message"
                             className="recent-prompt-message-img"
                           />
                           <p className="prev-prompt-menu">
@@ -229,7 +232,7 @@ const ChatMain = () => {
                 >
                   <img
                     src={myIcons.plus_icon}
-                    alt=""
+                    alt="New Chat"
                     className="mobile-newchat-icon"
                   />
                   <p className="mobile-newchat">New Chat</p>
@@ -237,7 +240,7 @@ const ChatMain = () => {
                 <div className="mobile-setting">
                   <img
                     src={myIcons.setting_icon}
-                    alt=""
+                    alt="Setting"
                     className="mobile-setting-img"
                   />
                   <p className="mobile-setting-text">Settings</p>
