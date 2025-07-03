@@ -1,5 +1,6 @@
 import backgroundAnimation from "./backgroundAnimation.mp4"
 import starsBackground from "./starsBackground.mp4"
+import portfolioBackground from "./portfolioBackground.mp4"
 import profilePic from "./profilePic.jpg"
 import PtuneLogo from "./PtuneLogo.png"
 import NITW from "./NITW.jpg"
@@ -179,6 +180,7 @@ export const toolIconData=[
 
 export const myData={
     backgroundAnimation,
+    portfolioBackground,
     starsBackground,
     profilePic,
     PtuneLogo,

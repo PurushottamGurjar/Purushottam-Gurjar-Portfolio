@@ -33,8 +33,8 @@ function App() {
   return (
     <div className="app-container">
       {/* Video Background */}
-      <video autoPlay muted loop className="background-video">
-        <source src={myData.starsBackground} type="video/mp4" />
+      <video autoPlay muted loop  className="background-video">
+        <source src={myData.portfolioBackground} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 
