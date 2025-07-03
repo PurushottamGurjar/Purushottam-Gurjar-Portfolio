@@ -66,8 +66,9 @@ function App() {
 
               <Link to="/about" className={`second-nav-content ${nav==="about"?"selected":""}`} onClick={()=>setNav("about")}>About</Link>
               <Link to='/about' className={`second-nav-content ${nav==="hello"?"selected":""}`} onClick={()=>window.open("https://ai-divie-purush-gurjar.vercel.app","_self")} >AI-Divie</Link>
-              <Link to="/e-sarthee" className={`second-nav-content ${nav==="e-sarthee"?"selected":""}`} onClick={()=>setNav("e-sarthee")} >E-Sarthee</Link>
-              <a href="https://p-tunes-purush-gurjar.vercel.app/"  className={`second-nav-content ${nav==="p-tunes"?"selected":""}`} onClick={()=>setNav("p-tunes")} >P-Tunes</a>
+              {/* <Link to="/e-sarthee" className={`second-nav-content ${nav==="e-sarthee"?"selected":""}`} onClick={()=>setNav("e-sarthee")} >E-Sarthee</Link> */}
+              <a href="https://esarthee.vercel.app/"  className={`second-nav-content ${nav==="esarthee"?"selected":""}`} onClick={()=>setNav("esarthee")} >E-Sarthee</a>
+              <a href="https://p-tunes.vercel.app/"  className={`second-nav-content ${nav==="p-tunes"?"selected":""}`} onClick={()=>setNav("p-tunes")} >P-Tunes</a>
               {/* <Link to='/contact' className={`second-nav-content ${nav==="contact"?"selected":""}`} onClick={()=>setNav("contact")} >Contact</Link> */}
           
         </nav>
