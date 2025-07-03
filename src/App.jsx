@@ -53,8 +53,9 @@ function App() {
               <Link to="/about" className={`nav-content ${nav==="about"? "selected":""}`} onClick={()=>setNav("about")}
               >About</Link>
                <Link to='/AI-Divie' className={`nav-content ${nav==="AI-Divie"? "selected":"none"}`} onClick={()=>setNav("AI-Divie")} >AI-Divie</Link>
-              <Link to="/e-sarthee" className={`nav-content ${nav==="e-sarthee"? "selected":"none"}`} onClick={()=>setNav("e-sarthee")} >E-Sarthee</Link>
-              <a href="https://p-tunes-purush-gurjar.vercel.app/"  className={`nav-content ${nav==="p-tunes"? "selected":"none"}`} onClick={()=>setNav("p-tunes")} >P-Tunes</a>
+              {/* <Link to="/e-sarthee" className={`nav-content ${nav==="e-sarthee"? "selected":"none"}`} onClick={()=>setNav("e-sarthee")} >E-Sarthee</Link> */}
+              <a href="https://esarthee.vercel.app/"  className={`nav-content ${nav==="esarthee"? "selected":"none"}`} onClick={()=>setNav("esarthee")} >E-Sarthee</a>
+              <a href="https://p-tunes.vercel.app/"  className={`nav-content ${nav==="p-tunes"? "selected":"none"}`} onClick={()=>setNav("p-tunes")} >P-Tunes</a>
               {/* <Link to='/contact' className={`nav-content ${nav==="contact"? "selected":"none"}`} onClick={()=>setNav("contact")} >Contact</Link> */}
               
             </nav>
