@@ -1,5 +1,6 @@
 // App.jsx
 import { useEffect, useState } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import { myData } from './assets/myasset';
 import './App.css';
 import { Link } from 'react-router-dom';
@@ -86,6 +87,8 @@ function App() {
         <Route path="/e-sarthee" element={<Viewer/>} />
         <Route path="/AI-Divie" element={<ChatMain/>} />
       </Routes>
+
+      <Analytics/>
     </div>
   );
 }
