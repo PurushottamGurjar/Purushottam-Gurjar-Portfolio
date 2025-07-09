@@ -90,7 +90,6 @@ body {
 .nav-content {
   text-decoration: none;
   color: white;
-  
   font-size: clamp(1.6rem,2vw,1.8rem);
   transition: font-weight 0.2s;
 }
@@ -98,8 +97,10 @@ body {
   text-decoration: none;
   color: white;
   font-weight:400;
+  white-space: nowrap;
   font-size: clamp(1.1rem,4vw,1.5rem);
   transition: font-weight 0.2s;
+  
 }
 
 .nav-content:hover {
@@ -126,14 +127,18 @@ body {
 /* MOBILE NAV */
 .nav-second {
   display: none;
-  /* top: clamp(1.4rem,4vw,2rem); */
-  width: auto;
-  background-color: rgba(13, 2, 14, 0.85);
-  padding: 8px 20px;
+  width:90%;
+  padding: 10px;
   display: none;
   gap: 20px;
-  flex-wrap: wrap;
-  z-index: 9;
+  overflow-x: auto;
+  box-sizing: border-box;
+ 
+}
+.second-navbar-container{
+  display:flex;
+  align-items: center;
+  background-color: rgba(13, 2, 14, 0.85);
 }
 
 
