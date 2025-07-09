@@ -141,6 +141,10 @@ body {
   background-color: rgba(13, 2, 14, 0.85);
 }
 
+.nav-second::-webkit-scrollbar{
+  display:none;
+}
+
 
 
 
