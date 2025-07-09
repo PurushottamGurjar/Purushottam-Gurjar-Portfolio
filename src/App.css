@@ -136,7 +136,7 @@ body {
  
 }
 .second-navbar-container{
-  display:flex;
+  display:none;
   align-items: center;
   background-color: rgba(13, 2, 14, 0.85);
 }
@@ -180,6 +180,11 @@ body {
   .header{
      background: rgb(20, 4, 31);
   }
+  .second-navbar-container{
+    display:flex;
+  }
+  
+
   
 }
 

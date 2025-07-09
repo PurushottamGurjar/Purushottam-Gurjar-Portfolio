@@ -63,7 +63,7 @@ function App() {
         </header>
 
         <div className='second-navbar-container'>
-            <div  style={{marginTop:"5px"}}>
+            <div  style={{marginTop:"7px"}}>
                 <svg width="25" height="25" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M16 4L8 12L16 20" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
