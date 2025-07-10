@@ -46,7 +46,7 @@ function App() {
          <header className="header">
           <div className="logo-name">
             <img className="ptune-logo" src={myData.PtuneLogo} alt="Purush" />
-            <span className="name">Purushottam </span>
+            <span className="name">Purushottam Gurjar</span>
           </div>
           <div className="nav-profile">
             <nav className="nav desktop-nav">

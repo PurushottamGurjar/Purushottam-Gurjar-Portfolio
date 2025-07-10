@@ -37,7 +37,7 @@ const AboutSection = () => {
                 2000,
                 "Building Dynamic Apps  ",
                 2000,
-                "", // Wait before restarting
+                "", 
               ]}
               wrapper="span"
               speed={200} // Typing speed (ms per character)
@@ -53,7 +53,10 @@ const AboutSection = () => {
           </div>
         </div>
       </div>
-      <p className="about-text">Hi Everyone , I am Purushottam Gurjar. Welcome to my Portfolio Website. I am C++ Programmer learned by solving more than 1000 problems collectively on LeetCode , GFG and Other Coding Platforms .I had Covered all the Advanced topics of the DSA and OOPs. Also I am a Web Developer currently Exploring Backend. I am also dedicated to learn ML and AI to be a better fit in this new era of AI.
+      
+
+      <p className="about-text">Hi Everyone , I am Purushottam Gurjar. Welcome to my Portfolio Website. I am <span className="about-text-enhace">C++ Programmer </span> with a strong foundation in Data Structures and Algorithms (DSA), Object-Oriented Programming (OOP), and modern Web Development. I learned by solving more than <span className="about-text-enhace">1000+ problems</span> collectively on <span  className="about-text-enhace"> LeetCode </span>, <span className="about-text-enhace">GFG </span>and Other Coding Platforms .  Beyond algorithms, I actively work on building scalable and responsive web applications. My primary tech stack includes <span className="about-text-enhace">React.js</span> for the frontend and  <span className="about-text-enhace">Node.js, Express.js, and MongoDB</span> on the backend. My long-term goal is to become a full-stack engineer capable of designing robust, production-grade systems.
+
             </p>
 
     </div>
