@@ -138,7 +138,7 @@ body {
 .second-navbar-container{
   display:none;
   align-items: center;
-  background-color: rgba(13, 2, 14, 0.85);
+  background-color: rgba(28, 5, 30, 0.85);
 }
 
 .nav-second::-webkit-scrollbar{
