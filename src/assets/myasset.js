@@ -20,6 +20,16 @@ import codeBoy from "./codeBoy.png"
 //this is assets for my AI-Divie
 
 
+
+
+// this is my assets for project section
+import aiDivieUiImg from "./aiDivieUiImg.png"
+
+export const projectData={
+    aiDivieUiImg,
+}
+
+
 import androidstudio_icon from "./androidstudio_icon.svg"
 import bootstrap_icon from "./bootstrap_icon.svg"
 import cpp_icon from "./cpp_icon.svg"
@@ -43,6 +53,7 @@ import postman_icon from "./postman_icon.webp"
 import leetcode_icon from "./leetcode_icon.png"
 import gfg_icon from "./gfg_icon.png"
 
+
 export const myIcons={
     camera_icon,
     expand_icon,
@@ -57,6 +68,8 @@ export const myIcons={
     AiDivieLogo,
     codeBoy
 }
+
+
 
 //end of my assets for AI-Divie
 

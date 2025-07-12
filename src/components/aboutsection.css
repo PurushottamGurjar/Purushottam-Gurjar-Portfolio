@@ -1,5 +1,5 @@
 .about-main{
-    width:100%;
+    width:92%;
     height:auto;
     display:flex;
     flex-direction: column;
@@ -8,7 +8,7 @@
     border:5px solid rgb(74, 73, 73);
     border-radius: 10px;
     box-sizing: border-box;
-    width:92vw;
+    width:92%;
     margin-left:4vw;
     align-items: center;
     align-self: center;
@@ -17,9 +17,9 @@
 }
 .about-main
 .photo-developer{
-    width:92%;
+    width:95%;
+    padding: clamp(0.1rem,1vw,1rem);
     box-sizing: border-box;
-    padding: 2vw;
     display: flex;
     gap:10vw;
 
@@ -61,8 +61,8 @@
     margin-top: 0;
     text-align: justify;
     box-sizing: border-box;
-    margin-left:clamp(1.5rem,4vw,3rem);
-    margin-right:clamp(1.5rem,4vw,3rem);
+    margin-left:clamp(0.5rem,3vw,3rem);
+    margin-right:clamp(0.5rem,3vw,3rem);
     font-size:clamp(1rem, 2vw,2.1rem);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

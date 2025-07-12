@@ -10,7 +10,6 @@ import { Routes,Route, BrowserRouter } from 'react-router-dom';
 import Contactme from './components/Contactme';
 import Viewer from "./components/Viewer";
 import PopupAI from "./components/PopupAI"
-import chatMain from "./components/ChatMain"
 import ChatMain from './components/ChatMain';
 
 function App() {
@@ -19,17 +18,6 @@ function App() {
   useEffect(()=>{
     navigate('/',{replace:true});
   },[])
-
-  // document.onkeydown= function(e){
-  //   if(e.key==="F12"  || 
-  //     (e.ctrlKey && e.shiftKey && (e.key==='I' || e.key==='C' || e.key==="J")) || 
-  //     (e.ctrlKey && e.key==="U")){
-  //       alert("Inspecting is disabled by the Purushottam Gurjar for Non-Techies and for Techies they know : 'if It's a secret it must be in Backend. Techies know what to do....'");
-  //       return false;
-  //     }
-   
-  // }
-  
 
   return (
     <div className="app-container">
@@ -91,7 +79,7 @@ function App() {
 
       </div>
 
-      {/* <Portfolio/> */}
+      {/* <Portfolio/>  portfolio is shown due to /  path no need to manually mount it*/} 
       <Routes>
         <Route path="*" element={<Portfolio/>} />
         <Route path="/" element={<Portfolio/>} />
