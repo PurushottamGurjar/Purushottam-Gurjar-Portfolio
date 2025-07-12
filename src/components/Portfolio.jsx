@@ -9,7 +9,7 @@ const Portfolio = () => {
   return (
     <div>
         <AboutSection/>
-        <Projects/>
+        {/* <Projects/> */}
         <Skill/>
         <Contactme/>
       
