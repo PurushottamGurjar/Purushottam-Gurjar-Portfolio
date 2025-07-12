@@ -67,9 +67,9 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .about-text-enhace{
-    
     font-weight:bold;
 }
+
 
 @media(max-width:1024px){
     .photo-developer{
@@ -87,6 +87,9 @@
     }
     .about-main .photo-developer{
         gap:25px;
+    }
+    .about-text-hiddenon-mobile{
+    display:none;
     }
 }
 
