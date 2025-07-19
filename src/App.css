@@ -128,7 +128,8 @@ body {
 .nav-second {
   display: none;
   width:90%;
-  padding: 10px;
+  padding-left: 10px;
+  padding-right:10px;
   display: none;
   gap: 20px;
   overflow-x: auto;
