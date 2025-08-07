@@ -5,6 +5,30 @@
   justify-content: center;
   align-items: center;
 }
+
+.skill-technologies-text{
+  margin-top: 70px;
+  background: linear-gradient(to right, #7F00FF, #9F4FFF, #00FFFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  background-size: 200% auto;
+  font-size: clamp(1.8rem, 3.5vw, 4rem);
+  transition: background-position 1s ease-in-out;
+  font-weight:bold;
+}
+.gradient-line {
+  width: 60vw;             
+  height: 0.25rem;         
+  margin: 0 auto;    
+  margin-top: clamp(0.5rem,2vw,1rem);      
+  border-radius: 9999px;  
+  background: linear-gradient(to right, #7F00FF, #00FFFF); /* Accent Purple to Cyan */
+}
+
+
+
 .div-languages {
   height: auto;
   width: 92%;

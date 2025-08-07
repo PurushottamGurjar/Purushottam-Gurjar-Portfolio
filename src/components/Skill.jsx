@@ -11,6 +11,9 @@ const Skill = () => {
       <div className="skill-technologies-text">
         Skills & Technologies
       </div>
+      <div class="gradient-line"></div>
+
+
       <div className="div-languages">
         <div className="p-languages">Languages</div>
         <div className="div-language-icon-container">
