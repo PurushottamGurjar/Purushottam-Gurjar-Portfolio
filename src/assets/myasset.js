@@ -148,15 +148,21 @@ export const dataScienceIconData=[
 export const languageIconData=[
     {
         icon:cpp_icon,
-        name:"C++"
+        name:"C++",
+        level:"Advanced",
+        proficiency:"95%"
     },
     {
         icon:python_icon,
-        name:"Python"
+        name:"Python",
+        level:"Basic",
+        proficiency:"40%"
     },
      {
         icon:js_icon,
-        name:"javaScript"
+        name:"javaScript",
+        level:"Medium",
+        proficiency:"60%"
     },
 ]
 
