@@ -16,7 +16,7 @@ const AboutSection = () => {
         </div>
         <div className="developer">
           <div className="about-name">
-            <p className="p-about-name">Hi I am Purushottam Gurjar</p>
+            <p className="p-about-name">Hi I am <span className="p-about-name-special">Purushottam Gurjar</span></p>
           </div>
           
 
@@ -45,6 +45,7 @@ const AboutSection = () => {
               style={{
                 display: "block",
                 textAlign: "center",
+                color:'#3b82f6',
               }}
               repeat={Infinity}
               className="type-animation"

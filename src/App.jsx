@@ -21,11 +21,11 @@ function App() {
 
   return (
     <div className="app-container">
-      {/* Video Background */}
+      {/* Video Background
       <video autoPlay muted loop  className="background-video">
         <source src={myData.portfolioBackground} type="video/mp4" />
         Your browser does not support the video tag.
-      </video>
+      </video> */}
 
       
       {/* Overlay Content */}
@@ -33,7 +33,7 @@ function App() {
         Header 
          <header className="header">
           <div className="logo-name">
-            <img className="ptune-logo" src={myData.PtuneLogo} alt="Purush" />
+            <img className="purush-logo" src={myData.PurushLogo} alt="Purush" />
             <span className="name">Purushottam Gurjar</span>
           </div>
           <div className="nav-profile">
@@ -53,7 +53,7 @@ function App() {
         <div className='second-navbar-container'>
             <div  style={{marginTop:"7px"}}>
                 <svg width="25" height="25" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M16 4L8 12L16 20" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M16 4L8 12L16 20" stroke="white" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
             </div>
            
@@ -67,7 +67,7 @@ function App() {
 
              <div style={{marginTop:"5px"}}>
                 <svg width="25" height="25" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M8 4L16 12L8 20" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M8 4L16 12L8 20" stroke="white" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
             </div>
             

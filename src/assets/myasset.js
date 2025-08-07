@@ -3,6 +3,7 @@ import starsBackground from "./starsBackground.mp4"
 import portfolioBackground from "./portfolioBackground.mp4"
 import profilePic from "./profilePic.jpg"
 import PtuneLogo from "./PtuneLogo.png"
+import PurushLogo from "./PurushLogo.png"
 import NITW from "./NITW.jpg"
 
 import camera_icon from "./camera.svg"
@@ -196,6 +197,7 @@ export const myData={
     portfolioBackground,
     starsBackground,
     profilePic,
+    PurushLogo,
     PtuneLogo,
     NITW
 }

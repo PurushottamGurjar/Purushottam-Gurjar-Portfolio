@@ -5,7 +5,8 @@
      margin-top:clamp(6rem,1vw,5rem);
      height:auto;
      box-sizing: border-box;
-     border-radius: 10px;;
+     border-radius: 10px;
+    
 }
 .img-purush{
     display:flex;
@@ -61,6 +62,9 @@
     font-size:clamp(1rem,3vw,1.6rem);
     font-weight: 500;
     color: white;
+     background: linear-gradient(to right, #7F00FF, #00FFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -74,6 +78,7 @@
 .input-name{
     height:45px;
     background-color:rgb(9, 10, 9);
+    color:white;
     width:35vw;
     padding: 3px;
     border-radius: 10px;
@@ -112,6 +117,9 @@
     font-size:clamp(1rem,4vw,1.8rem);
     font-weight:bold;
     color:white;
+     background: linear-gradient(to right, #7F00FF, #00FFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     margin-top: 50px;
     text-align: center;
     padding:20px;
@@ -123,7 +131,9 @@
     align-items: center;
     margin: 0;
     font-weight:bolder;
-    color:white;
+     background: linear-gradient(to right, #7F00FF, #00FFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     margin-top:20px;;
     margin-bottom: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

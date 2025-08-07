@@ -25,7 +25,7 @@ const Contactme = () => {
         () => {
           alert('Message sent successfully!');
           form.current.reset();
-          setButtonText("Send Mesage")
+          setButtonText("Send Message")
         },
         (error) => {
           console.error('FAILED...', error.text);
@@ -47,7 +47,7 @@ const Contactme = () => {
         <form action="" ref={form} onSubmit={sendEmail}>
           <div className="main">
             <div className="name-email">
-              <div className="div-name name-text">
+              {/* <div className="div-name name-text">
                 <label htmlFor="" className="name-text">
                   Your Name
                 </label>
@@ -56,7 +56,20 @@ const Contactme = () => {
                   type="text"
                   name="name"
                   required
-                  className="input-name input-text"
+                  className="input-email input-text"
+                />
+              </div> */}
+
+              <div className="div-email">
+                <label htmlFor="" className="email name-text">
+                  Your Name
+                </label>
+                <input
+                  placeholder=" E-Mail Address"
+                  type="text"
+                  name="name"
+                  required
+                  className="input-email input-text  "
                 />
               </div>
 

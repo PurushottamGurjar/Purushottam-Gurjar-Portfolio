@@ -1,12 +1,16 @@
 import React from "react";
 import "./skill.css";
-import { dataScienceIconData, languageIconData } from "./myasset";
-import { webIconData } from "./myasset";
-import { toolIconData } from "./myasset";
+import { dataScienceIconData, languageIconData } from '../assets/myasset'
+import { webIconData } from "../assets/myasset";
+import { toolIconData } from "../assets/myasset";
 
 const Skill = () => {
   return (
     <div className="skills-main">
+
+      <div className="skill-technologies-text">
+        Skills & Technologies
+      </div>
       <div className="div-languages">
         <div className="p-languages">Languages</div>
         <div className="div-language-icon-container">
