@@ -39,6 +39,10 @@
   box-sizing: border-box;
   border: 5px solid rgb(67, 62, 62);
 }
+.p-languages{
+  margin-top: 10px;
+  color:#0AB7D1;
+}
 
 .language-icon-img {
   width: 60px;
@@ -217,5 +221,4 @@
 .p-languages {
   font-size: 30px;
   text-align: center;
-  color: white;
 }
